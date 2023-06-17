@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className=" nav">
         <div className="nav-items">
-          <button className="bttn" onClick={() => navigate("/table1")}>
+          <button className="bttn" onClick={() => navigate("/")}>
             TABLE 1
           </button>
 
@@ -20,7 +20,7 @@ function App() {
       </div>
       <div className="components">
         <Routes>
-          <Route path="/table1" element={<Table1 />} />
+          <Route path="/" element={<Table1 />} />
           <Route path="/table2" element={<Table2 />} />
         </Routes>
       </div>

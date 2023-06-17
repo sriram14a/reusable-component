@@ -92,4 +92,17 @@ border-radius: 50px;
   display: flex;
  justify-content: center;
   }
+  .search1{
+    width: 155px;
+    padding: 10px;
+  }
+  .sort{
+padding: 5px;
+background-color: black;
+color: white;
+border-radius: 50px;
+  }
+  .sort:hover{
+    cursor: pointer;
+  }
   

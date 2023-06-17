@@ -7,7 +7,7 @@ export function Table1() {
   const [search, setSearch] = useState("");
 
   const [currentPage, setCurrentpage] = useState(1);
-  const employeePerPage = 3;
+  const employeePerPage = 5;
   const lastInd = currentPage * employeePerPage;
   const firstInd = lastInd - employeePerPage;
 
